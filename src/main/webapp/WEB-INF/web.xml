@@ -4,7 +4,7 @@
 
 <web-app>
     <display-name>Hello World Servlet</display-name>
-
+    <distributable/>
     <servlet>
         <servlet-name>hello</servlet-name>
         <servlet-class>com.geekcap.vmturbo.HelloWorldServlet</servlet-class>
