@@ -1,6 +1,7 @@
 package com.geekcap.vmturbo;
+import java.io.Serializable;
 
-public class Thing {
+public class Thing implements Serializable{
   private int n = 0;
 
   public int getN() {
